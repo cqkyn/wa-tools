@@ -1,0 +1,2 @@
+docker build -t flask-docker .
+docker run -d --restart always -p 7729:7729 flask-docker
